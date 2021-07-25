@@ -8,3 +8,6 @@ with plugin has 3 command:
 
 ## Config
 config has one parameter - homes_count. this parameter is the maximum limit of allowed houses
+
+### Download
+[cklick](https://github.com/2sweetheart2/HomeMaster/releases/tag/1.0)

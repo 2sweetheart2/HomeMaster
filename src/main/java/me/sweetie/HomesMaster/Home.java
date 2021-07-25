@@ -40,7 +40,7 @@ public class Home implements CommandExecutor {
         for (HomeObj h : homes) {
             if (h.name.equals(name)) {
                 player.teleport(new Location(Bukkit.getWorld(h.w), h.x, h.y, h.z));
-                player.sendMessage(ChatColor.GREEN+"You teleported to home '"+name+"");
+                player.sendMessage(ChatColor.GREEN+"You teleported to home '"+name+"'");
                 return true;
             }
         }

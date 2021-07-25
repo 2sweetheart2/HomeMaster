@@ -1,0 +1,15 @@
+name: HomesMaster
+version: 1.0
+main: me.sweetie.HomesMaster.Main
+api-version: 1.17
+authors: [ Sweettie ]
+commands:
+  sethome:
+    description: set new home's point
+    usage: /sethome [name]
+  home:
+    description: teleport you to your home
+    usage: /home [home's name]
+  delhome:
+    description: delete your home by name
+    usage: /delhome [home's name]
